@@ -1,3 +1,5 @@
+apply plugin: 'idea'
+
 buildscript {
     repositories {
         mavenCentral()
@@ -11,5 +13,6 @@ buildscript {
 apply plugin: 'android'
 
 android {
-    compileSdkVersion 15
+    buildToolsVersion "18.1"
+    compileSdkVersion 14
 }
